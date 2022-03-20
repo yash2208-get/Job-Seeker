@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    text-decoration: none;
+}
+::selection
+{
+	background:yellow;
+	color: grey; 
+}
+.carousel-item img
+{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.light{
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgba(209,191,191,0.75);
+    border-radius: 50%;
+    font-weight: 100;
+    box-shadow: 10px 10px 5px 0px rgba(209,191,191,0.75);
+    
+}
+.head1
+{
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 30px;
+    word-spacing: 1px;
+    text-align: center;
+    font-weight: 100;
+}
+.page
+{
+    margin-left: 80px;
+    margin-top: 10px;
+    line-height: 20px;
+    word-spacing: 1px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.backg-img
+{
+    background: linear-gradient(80deg,#000000,#F0F2F0),url('img/4.jpeg');
+    background-blend-mode:multiply;
+    background-size: cover;   
+}
+.backg-img i
+{
+    font-size: 100px;
+    color: aliceblue;
+    margin-left: 100px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.backg-img h1
+{
+     
+    color: blanchedalmond;
+    margin-left: 50px;
+    padding: 30px;
+    padding-top: 0;
+}
+.footer{
+    background-color: black;
+    color: #F0F2F0;
+}
+.footer .address
+{
+    color: #F0F2F0;   
+}
+.footer .address span
+{
+    color: #F0F2F0;
+}
+.ph
+{
+    color: #fff;
+    font-weight: bold;
+}
+.ph span
+{
+    margin: 10px;
+    font-size: 25px;
+}
+.form-img
+{
+    background: linear-gradient(360deg,#b21f1f,#e79696),url('img/10.jpeg');
+    background-blend-mode:multiply;
+    background-size: 100% 100%;
+    color: #fff;
+      
+}
+.form-text
+{
+    background: linear-gradient(60deg,#C9D6FF,#E2E2E2); 
+    font-size: 25px;  
+}
+.typing-effect
+{
+    text-align: center;
+}
+
+.input-text
+{
+    color: #000000;
+    animation: wave 5s linear infinite;
+    display: inline-block;
+    animation-delay: 2.1s; 
+}
+@keyframes wave {
+    0%
+    {
+        font-size: 24px;
+        color: crimson;
+    }
+    50%
+    {
+        font-size: 40px;
+    }
+    100%
+    {
+        font-size: 30px;
+        
+        color: #000000;
+    }
+}
+#loaging
+{
+    margin:0px;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url('img/loading.gif') no-repeat center;
+    z-index:99999;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+		input[type=number]::-webkit-outer-spin-button 
+		{ -webkit-appearance: none; 
+			-moz-appearance: none; 
+			appearance: none;
+             
+		}

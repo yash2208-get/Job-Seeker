@@ -1,0 +1,62 @@
+.Upload_Resume
+{
+    width: auto;
+    height: 700px;
+    background: linear-gradient(80deg,#b21f1f,#642B73,#BD3F32),url('img/6.jpeg');
+    background-blend-mode:multiply;
+    background-size: 100% 100%;      
+}
+.Upload_Resume form
+{
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+    padding-top: 5px;
+}
+input[type="text"]
+{
+    margin: 5px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 4px;
+    color: #000000;
+    outline: none;
+}
+input[type="email"]
+{
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+    margin-left: 4px;
+    color: #000000;
+    outline: none;
+}
+
+input[type="number"]
+{
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+    color: #000000;
+    margin-left: 4px;
+    outline: none;
+    -webkit-appearance: none; 
+			-moz-appearance: none; 
+			appearance: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+		input[type=number]::-webkit-outer-spin-button 
+		{ -webkit-appearance: none; 
+			-moz-appearance: none; 
+			appearance: none;
+            outline: none; 
+		}
+.Upload_Resume button
+{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fdbb2d;
+    width: 100px;
+    border-radius: 10px;
+}
